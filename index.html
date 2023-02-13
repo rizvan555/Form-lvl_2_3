@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Form lvl_2_3</title>
+  </head>
+  <body>
+    <fieldset id="regitser-form">
+      <legend>Register form</legend>
+      <div class="name-box">
+        <label for="">Name</label>
+        <input type="text" placeholder="Name" />
+      </div>
+
+      <div class="surname-box">
+        <label for="">Surname</label>
+        <input type="text" placeholder="Surname" />
+      </div>
+
+      <div class="email-box">
+        <label for="">Email</label>
+        <input type="text" placeholder="Email" />
+      </div>
+
+      <div class="gender-box">
+        <label for="">Gender</label>
+        <div class="gender-box__input">
+          <label for="">Male</label>
+          <input type="radio" />
+          <label for="">Female</label>
+          <input type="radio" />
+        </div>
+      </div>
+
+      <div class="picture-box">
+        <label for="">Picture</label>
+        <input type="image" value="Choose file" />
+        <span>No file choosen</span>
+      </div>
+
+      <div id="country-box">
+        <label for="">Country</label>
+        <select name="" id="country">
+          <option value="Germany">Germany</option>
+          <option value="USA">USA</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Aserbaidschan">Aserbaidschan</option>
+        </select>
+      </div>
+      <div id="languages-box">
+        <label for="">Preferred languages</label>
+        <select multiple="multiple" id="language">
+          <option value="HTML">HTML</option>
+          <option value="CSS">Css</option>
+          <option value="JS">JS</option>
+          <option value="React">React</option>
+        </select>
+        <span>(To choose more than one use cmd key)</span>
+      </div>
+
+      <div id="field-box">
+        <label class="field-box__label" for="">Field of activity</label>
+        <div class="profession-box">
+          <input type="checkbox" />
+          <label for="">IT</label>
+          <input type="checkbox" />
+          <label for="">Design</label>
+          <input type="checkbox" />
+          <label for="">Other</label>
+        </div>
+      </div>
+
+      <div id="button-footer-container">
+        <input type="button" value="Send" />
+        <input type="button" value="Cancel" />
+      </div>
+    </fieldset>
+  </body>
+</html>
